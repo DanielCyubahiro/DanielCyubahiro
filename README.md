@@ -14,3 +14,7 @@ I am a **Software Developer** with 3 years of experience specializing in buildin
 
 ## 📫 Let's Connect  
 - 🌍 [LinkedIn](https://www.linkedin.com/in/daniel-prince-cyubahiro/)
+
+<p align="center">
+  <img width="250" src="https://github.com/user-attachments/assets/2853ace5-0878-430d-b7e1-0d347fa721f1">
+</p>
