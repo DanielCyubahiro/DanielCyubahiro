@@ -4,7 +4,7 @@ Welcome to my GitHub! I'm a **Full-Stack Developer** who loves crafting scalable
 
 ## 🔧 Tech Stack  
 - **Frontend:** React.js, Next.js, Redux, TailwindCSS, Ant-Design, Material-UI  
-- **Backend:** Laravel, Node.js, Express.js
+- **Backend:** Laravel(PHP), Node.js, Express.js
 - **Database:** MySQL, PostgreSQL, MongoDB  
 - **Other:** REST APIs, Git, Docker, CI/CD, Vercel, Netlify  
 
