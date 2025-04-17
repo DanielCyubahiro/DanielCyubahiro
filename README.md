@@ -15,5 +15,3 @@ Welcome to my GitHub! I'm a **Full-Stack Developer** who loves crafting scalable
 
 ## 📫 Let's Connect  
 - 💼 [LinkedIn](https://www.linkedin.com/in/daniel-prince-cyubahiro/)
-- 🌐 Personal Website
-
