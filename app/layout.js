@@ -1,15 +1,5 @@
-import {Outfit, Ovo} from 'next/font/google';
 import './globals.css';
-
-const ovo = Ovo({
-  subsets: ['latin'],
-  weight: ['400'],
-});
-
-const outfit = Outfit({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-});
+import {ThemeProvider} from '@/app/components/theme/theme-provider';
 
 export const metadata = {
   title: 'Portfolio - Daniel Cyubahiro',
@@ -18,11 +8,18 @@ export const metadata = {
 
 export default function RootLayout({children}) {
   return (
-      <html lang="en">
+      <html lang="en" suppressHydrationWarning>
       <body
-          className={`${ovo.className} ${outfit.className}antialiased`}
+          className={`antialiased`}
       >
-        {children}
+        <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
       </html>
   );
