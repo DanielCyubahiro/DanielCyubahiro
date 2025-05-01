@@ -18,7 +18,7 @@ const Navbar = () => {
         <nav
             className={'flex items-center justify-between px-5 lg:px-8 xl:px-[8%] py-4  w-full fixed z-50'}>
           <a href="#top">
-            <h2 className={`${styleScript.className} text-4xl`}>Daniel
+            <h2 className={`${styleScript.className} text-3xl sm:text-4xl`}>Daniel
               Cyubahiro.</h2>
           </a>
           <ul className={'hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3'}>
@@ -49,7 +49,7 @@ const Navbar = () => {
 
           {/*------------------------- Mobile Menu -------------------------*/}
           <ul className={cn(
-              'flex flex-col gap-4 py-20 px-10 fixed -right-0 top-0 bottom-0 w-full z-50 h-screen bg-sidebar text-sidebar-accent-foreground transition duration-500 translate-x-full md:hidden',
+              'flex flex-col gap-4 py-20 px-10 fixed -right-0 top-0 bottom-0 w-50 z-50 h-screen bg-sidebar text-sidebar-accent-foreground transition duration-500 translate-x-full md:hidden',
               {
                 'translate-x-0': isSidebarOpen,
               },

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab7ef8f-dd50-4748-a072-6ed84f20df10" name="Changes" comment="Add dark theme and side bar" />
+    <list default="true" id="dab7ef8f-dd50-4748-a072-6ed84f20df10" name="Changes" comment="Add outfit font">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Navbar.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746083490732</updated>
       <workItem from="1746083492023" duration="767000" />
-      <workItem from="1746084548283" duration="12080000" />
+      <workItem from="1746084548283" duration="12638000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial layout and navigation">
       <option name="closed" value="true" />
@@ -101,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746096655037</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add outfit font">
+      <option name="closed" value="true" />
+      <created>1746096807539</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746096807539</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add initial layout and navigation" />
     <MESSAGE value="Add dark theme and side bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add dark theme and side bar" />
+    <MESSAGE value="Add outfit font" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add outfit font" />
   </component>
 </project>
