@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab7ef8f-dd50-4748-a072-6ed84f20df10" name="Changes" comment="Add outfit font">
+    <list default="true" id="dab7ef8f-dd50-4748-a072-6ed84f20df10" name="Changes" comment="Update logo size">
+      <change afterPath="$PROJECT_DIR$/app/components/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/DanielPrinceCyubahiroResume.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/profile-photo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +54,7 @@
     "git-widget-placeholder": "main",
     "javascript.nodejs.core.library.configured.version": "23.9.0",
     "javascript.nodejs.core.library.typings.version": "22.13.10",
-    "last_opened_file_path": "/Users/daniel/web-bootcamp/youtube/DanielCyubahiro",
+    "last_opened_file_path": "/Users/daniel/web-bootcamp/youtube/DanielCyubahiro/public",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
@@ -64,6 +68,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/components/theme" />
       <recent name="$PROJECT_DIR$/public" />
@@ -86,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746083490732</updated>
       <workItem from="1746083492023" duration="767000" />
-      <workItem from="1746084548283" duration="12638000" />
+      <workItem from="1746084548283" duration="17465000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial layout and navigation">
       <option name="closed" value="true" />
@@ -112,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746096807539</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update logo size">
+      <option name="closed" value="true" />
+      <created>1746100600673</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746100600673</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +137,7 @@
     <MESSAGE value="Add initial layout and navigation" />
     <MESSAGE value="Add dark theme and side bar" />
     <MESSAGE value="Add outfit font" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add outfit font" />
+    <MESSAGE value="Update logo size" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update logo size" />
   </component>
 </project>

@@ -9,14 +9,14 @@ const outfit = Outfit({
 
 export const metadata = {
   title: 'Portfolio - Daniel Cyubahiro',
-  description: 'Daniel Cyubahiro is a Full-Stack Web Developer passionate about building scalable web applications with clean, efficient code. Check out my projects and open-source contributions!',
+  description: 'Daniel Cyubahiro is a Full-Stack Web Developer passionate about building scalable websites, web applications, APIs with clean, efficient code. Check out my projects and open-source contributions!',
 };
 
 export default function RootLayout({children}) {
   return (
       <html lang="en" suppressHydrationWarning>
       <body
-          className={`${outfit.className}antialiased`}
+          className={`${outfit.className}antialiased leading-8 overflow-x-hidden`}
       >
         <ThemeProvider
             attribute="class"
