@@ -5,7 +5,7 @@ import About from '@/app/components/About';
 export default function Page() {
   return (
       <main>
-        <Navbar />
+        <Navbar/>
         <Home/>
         <About/>
       </main>

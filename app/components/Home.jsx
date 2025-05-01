@@ -4,7 +4,8 @@ import {Button} from '@/components/ui/button';
 
 const Home = () => {
   return (
-      <section className={'w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-6'}>
+      <section
+          className={'w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-6'}>
         <Image
             src={'/profile-photo.jpg'}
             width={200}
