@@ -14,9 +14,8 @@ const styleScript = Style_Script({
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   return (
-      <>
         <nav
-            className={'flex items-center justify-between px-5 lg:px-8 xl:px-[8%] py-4  w-full fixed z-50'}>
+            className={'flex items-center justify-between px-5 lg:px-8 xl:px-[8%] py-4  w-full fixed z-50 bg-primary-foreground'}>
           <a href="#top">
             <h2 className={`${styleScript.className} text-3xl sm:text-4xl`}>Daniel
               Cyubahiro.</h2>
@@ -24,8 +23,7 @@ const Navbar = () => {
           <ul className={'hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3'}>
             <li><a href="#top">Home</a></li>
             <li><a href="#about">About Me</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#work">My Work</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
           <a href="#contact">
@@ -88,7 +86,6 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-      </>
   );
 };
 
