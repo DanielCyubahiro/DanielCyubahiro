@@ -1,9 +1,5 @@
-'use client';
 import Image from 'next/image';
-import {useTheme} from 'next-themes';
-
 const About = () => {
-  const {theme = 'dark'} = useTheme();
   return (
       <section id={'about'} className={'w-full px-[12%] py-10 scroll-mt-20 flex flex-col items-center justify-center'}>
         <h2 className="text-center text-5xl mb-20">
@@ -32,30 +28,30 @@ const About = () => {
                    alt={'javascript logo'}/>
             <Image src={'/icons/typescript.svg'} width={40} height={40}
                    alt={'typescript logo'}/>
-            <Image src={`/icons/react-${theme}.svg`} width={40} height={40}
+            <Image src={`/icons/react-dark.svg`} width={40} height={40}
                    alt={'react logo'}/>
-            <Image src={`/icons/nextjs-${theme}.svg`} width={40} height={40}
+            <Image src={`/icons/nextjs-dark.svg`} width={40} height={40}
                    alt={'nextjs logo'}/>
-            <Image src={`/icons/vite-${theme}.svg`} width={40} height={40}
+            <Image src={`/icons/vite-dark.svg`} width={40} height={40}
                    alt={'vite logo'}/>
             <Image src={'/icons/redux.svg'} width={40} height={40}
                    alt={'redux logo'}/>
-            <Image src={`/icons/tailwindcss-${theme}.svg`} width={40}
+            <Image src={`/icons/tailwindcss-dark.svg`} width={40}
                    height={40} alt={'tailwindcss logo'}/>
-            <Image src={`/icons/materialui-${theme}.svg`} width={40}
+            <Image src={`/icons/materialui-dark.svg`} width={40}
                    height={40} alt={'tailwindcss logo'}/>
           </section>
           <h5 className={'text-center m-5'}>⚙️ Backend</h5>
           <section className={'flex gap-2 flex-wrap justify-center'}>
-            <Image src={`/icons/nodejs-${theme}.svg`} width={40} height={40}
+            <Image src={`/icons/nodejs-dark.svg`} width={40} height={40}
                    alt={'nodejs logo'}/>
-            <Image src={`/icons/php-${theme}.svg`} width={40} height={40}
+            <Image src={`/icons/php-dark.svg`} width={40} height={40}
                    alt={'php logo'}/>
-            <Image src={`/icons/expressjs-${theme}.svg`} width={40}
+            <Image src={`/icons/expressjs-dark.svg`} width={40}
                    height={40} alt={'expressjs logo'}/>
-            <Image src={`/icons/nestjs-${theme}.svg`} width={40} height={40}
+            <Image src={`/icons/nestjs-dark.svg`} width={40} height={40}
                    alt={'nestjs logo'}/>
-            <Image src={`/icons/laravel-${theme}.svg`} width={40}
+            <Image src={`/icons/laravel-dark.svg`} width={40}
                    height={40}
                    alt={'laravel logo'}/>
           </section>
@@ -63,9 +59,9 @@ const About = () => {
           <section className={'flex gap-2 flex-wrap justify-center'}>
             <Image src={'/icons/mongodb.svg'} width={40} height={40}
                    alt={'mongodb logo'}/>
-            <Image src={`/icons/mysql-${theme}.svg`} width={40} height={40}
+            <Image src={`/icons/mysql-dark.svg`} width={40} height={40}
                    alt={'mysql logo'}/>
-            <Image src={`/icons/postgresql-${theme}.svg`} width={40}
+            <Image src={`/icons/postgresql-dark.svg`} width={40}
                    height={40}
                    alt={'postgresql logo'}/>
           </section>
@@ -73,24 +69,24 @@ const About = () => {
           <section className={'flex gap-2 flex-wrap justify-center'}>
             <Image src={'/icons/git.svg'} width={40} height={40}
                    alt={'git logo'}/>
-            <Image src={`/icons/github-${theme}.svg`} width={40} height={40}
+            <Image src={`/icons/github-dark.svg`} width={40} height={40}
                    alt={'github logo'}/>
-            <Image src={`/icons/netlify-${theme}.svg`} width={40}
+            <Image src={`/icons/netlify-dark.svg`} width={40}
                    height={40}
                    alt={'netlify logo'}/>
-            <Image src={`/icons/vercel-${theme}.svg`} width={40}
+            <Image src={`/icons/vercel-dark.svg`} width={40}
                    height={40}
                    alt={'vercel logo'}/>
-            <Image src={`/icons/npm-${theme}.svg`} width={40}
+            <Image src={`/icons/npm-dark.svg`} width={40}
                    height={40}
                    alt={'npm logo'}/>
             <Image src={'/icons/postman.svg'} width={40} height={40}
                    alt={'postman logo'}/>
-            <Image src={`/icons/webstorm-${theme}.svg`} width={40}
+            <Image src={`/icons/webstorm-dark.svg`} width={40}
                    height={40}
                    alt={'webstorm logo'}/>
 
-            <Image src={`/icons/vscode-${theme}.svg`} width={40}
+            <Image src={`/icons/vscode-dark.svg`} width={40}
                    height={40}
                    alt={'vscode logo'}/>
           </section>
