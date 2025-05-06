@@ -19,8 +19,7 @@ const Navbar = () => {
       <nav
           className={'flex items-center justify-between px-5 lg:px-8 xl:px-[8%] py-4  w-full fixed z-50 bg-primary-foreground'}>
         <a href="#home">
-          <h2 className={`${styleScript.className} text-3xl sm:text-4xl`}>Daniel
-            Cyubahiro.</h2>
+          <h2 className={`${styleScript.className} text-3xl sm:text-4xl`}>Daniel Cyubahiro.</h2>
         </a>
         <ul className={'hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3'}>
           <li><a href="#home">Home</a></li>
@@ -28,18 +27,20 @@ const Navbar = () => {
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <a href="#contact">
-          <Button
-              variant="outline"
-              className={'hidden lg:flex items-center gap-3 px-5 py-3 border border-gray-500 rounded-full ml-4'}
-              size="xl"
-          >
-            Get in touch
-            <ArrowUpRight/>
-          </Button>
-        </a>
-        <div className={'hidden md:flex'}>
-          <ThemeToggle/>
+        <div className={'flex flex-nowrap justify-center items-center gap-1'}>
+          <div className={'hidden md:flex'}>
+            <ThemeToggle/>
+          </div>
+          <a href="#contact">
+            <Button
+                variant="outline"
+                className={'hidden lg:flex items-center gap-3 px-5 py-3 border border-gray-500 rounded-full ml-4'}
+                size="xl"
+            >
+              Get in touch
+              <ArrowUpRight/>
+            </Button>
+          </a>
         </div>
         <AlignRight
             size={30}
