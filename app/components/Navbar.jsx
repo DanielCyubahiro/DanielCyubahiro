@@ -65,12 +65,6 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#services"
-               onClick={() => setIsSidebarOpen(false)}>
-              Services
-            </a>
-          </li>
-          <li>
             <a href="#work" onClick={() => setIsSidebarOpen(false)}>
               My Work
             </a>
