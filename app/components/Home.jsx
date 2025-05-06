@@ -5,13 +5,14 @@ import {Button} from '@/components/ui/button';
 const Home = () => {
   return (
       <section
-          className={'w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-6'}>
+          id="home"
+          className={'w-11/12 max-w-3xl text-center mx-auto h-screen pt-20 flex flex-col items-center justify-center gap-6'}>
         <Image
             src={'/profile-photo.jpg'}
-            width={200}
-            height={200}
+            width={150}
+            height={150}
             alt={'Profile Photo'}
-            className={'rounded-full object-cover'}
+            className={'rounded-full object-cover aspect-square'}
         />
         <h3 className={'text-xl md:text-2xl mb-3'}>
           Hi, I'm Daniel Cyubahiro. 👋🏽

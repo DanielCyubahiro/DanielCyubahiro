@@ -82,7 +82,7 @@ const Contact = () => {
   return (
       <section
           id="contact"
-          className="w-full px-[12%] py-20 mb-40 scroll-mt-2 h-min-screen flex flex-col"
+          className="w-full px-[12%] py-20 mb-20 scroll-mt-2 h-min-screen flex flex-col"
       >
         <h2 className="text-center text-5xl mb-20">
           Contact
