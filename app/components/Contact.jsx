@@ -17,6 +17,7 @@ import {Button} from '@/components/ui/button';
 import {useEffect, useState} from 'react';
 import {Alert, AlertDescription, AlertTitle} from '@/components/ui/alert';
 import {AlertCircle, CheckCircle} from 'lucide-react';
+import Footer from '@/app/components/Footer';
 
 const formSchema = z.object({
   name: z.string().min(2).max(50),
@@ -80,89 +81,94 @@ const Contact = () => {
   }, [message]);
 
   return (
-      <section
+      <div
           id="contact"
-          className="w-full px-[12%] py-20 mb-20 scroll-mt-2 h-min-screen flex flex-col"
+          className={'h-screen pt-20 flex flex-col'}
       >
-        <h2 className="text-center text-5xl mb-20">
-          Contact
-        </h2>
-        {message && (
-            <div
-                className="fixed top-20 lg:top-25 right-4 z-40 animate-fade-in">
-              <Alert
-                  variant={isSuccess ? 'default' : 'destructive'}
-                  className="shadow-lg"
-              >
-                {isSuccess ? (
-                    <CheckCircle className="h-4 w-4" color={'#00ff11'}/>
-                ) : (
-                    <AlertCircle className="h-4 w-4" color={'#ff0000'}/>
-                )}
-                <AlertTitle>{isSuccess ? 'Done!' : 'Error'}</AlertTitle>
-                <AlertDescription>{message}</AlertDescription>
-              </Alert>
-            </div>
-        )}
-        <Form {...form}>
-          <form
-              onSubmit={form.handleSubmit(handleSubmit)}
-              className={'space-y-8 flex flex-wrap justify-between '}
-          >
-            <section className={'lg:w-[49%] w-full'}>
-              <FormField
-                  control={form.control}
-                  name="name"
-                  render={({field}) => (
-                      <FormItem>
-                        <FormLabel>Name</FormLabel>
-                        <FormControl>
-                          <Input placeholder={'Enter you name'} {...field}/>
-                        </FormControl>
-                        <FormDescription>
-                          e.g. Jane Doe
-                        </FormDescription>
-                      </FormItem>
+        <section
+            className="w-full px-[12%] py-20 scroll-mt-2 flex flex-col grow"
+        >
+          <h2 className="text-center text-5xl mb-20">
+            Contact
+          </h2>
+          {message && (
+              <div
+                  className="fixed top-20 lg:top-25 right-4 z-40 animate-fade-in">
+                <Alert
+                    variant={isSuccess ? 'default' : 'destructive'}
+                    className="shadow-lg"
+                >
+                  {isSuccess ? (
+                      <CheckCircle className="h-4 w-4" color={'#00ff11'}/>
+                  ) : (
+                      <AlertCircle className="h-4 w-4" color={'#ff0000'}/>
                   )}
-              />
-            </section>
-            <section className={'lg:w-[49%] w-full'}>
-              <FormField
-                  control={form.control}
-                  name="email"
-                  render={({field}) => (
-                      <FormItem>
-                        <FormLabel>Email</FormLabel>
-                        <FormControl>
-                          <Input placeholder={'Enter you email'} {...field}/>
-                        </FormControl>
-                        <FormDescription>
-                          e.g. janedoe@gmail.com
-                        </FormDescription>
-                      </FormItem>
-                  )}
-              />
-            </section>
-            <section className={'w-full'}>
-              <FormField
-                  control={form.control}
-                  name="message"
-                  render={({field}) => (
-                      <FormItem>
-                        <FormLabel>Message</FormLabel>
-                        <FormControl>
-                          <Textarea
-                              placeholder={'Enter your message'}
-                              {...field}/>
-                        </FormControl>
-                      </FormItem>
-                  )}
-              />
-            </section>
-            <Button type="submit" className={'mx-auto p-5'}>Send</Button>
-          </form>
-        </Form>
-      </section>
+                  <AlertTitle>{isSuccess ? 'Done!' : 'Error'}</AlertTitle>
+                  <AlertDescription>{message}</AlertDescription>
+                </Alert>
+              </div>
+          )}
+          <Form {...form}>
+            <form
+                onSubmit={form.handleSubmit(handleSubmit)}
+                className={'space-y-8 flex flex-wrap justify-between '}
+            >
+              <section className={'lg:w-[49%] w-full'}>
+                <FormField
+                    control={form.control}
+                    name="name"
+                    render={({field}) => (
+                        <FormItem>
+                          <FormLabel>Name</FormLabel>
+                          <FormControl>
+                            <Input placeholder={'Enter you name'} {...field}/>
+                          </FormControl>
+                          <FormDescription>
+                            e.g. Jane Doe
+                          </FormDescription>
+                        </FormItem>
+                    )}
+                />
+              </section>
+              <section className={'lg:w-[49%] w-full'}>
+                <FormField
+                    control={form.control}
+                    name="email"
+                    render={({field}) => (
+                        <FormItem>
+                          <FormLabel>Email</FormLabel>
+                          <FormControl>
+                            <Input placeholder={'Enter you email'} {...field}/>
+                          </FormControl>
+                          <FormDescription>
+                            e.g. janedoe@gmail.com
+                          </FormDescription>
+                        </FormItem>
+                    )}
+                />
+              </section>
+              <section className={'w-full'}>
+                <FormField
+                    control={form.control}
+                    name="message"
+                    render={({field}) => (
+                        <FormItem>
+                          <FormLabel>Message</FormLabel>
+                          <FormControl>
+                            <Textarea
+                                placeholder={'Enter your message'}
+                                {...field}/>
+                          </FormControl>
+                        </FormItem>
+                    )}
+                />
+              </section>
+              <Button type="submit" className={'mx-auto p-5'}>Send</Button>
+            </form>
+          </Form>
+        </section>
+        <Footer/>
+      </div>
   );
 };
 

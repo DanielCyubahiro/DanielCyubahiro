@@ -2,8 +2,9 @@ import Image from 'next/image';
 
 const About = () => {
   return (
-      <section id={'about'}
-               className={'w-full px-[12%] py-10 scroll-mt-20 flex flex-col items-center justify-center'}>
+      <section
+          id={'about'}
+          className={'w-full px-[12%]  h-screen flex flex-col items-center justify-center mb-20'}>
         <h2 className="text-center text-5xl mb-20">
           About Me
         </h2>
@@ -70,31 +71,6 @@ const About = () => {
               <Image src={`/icons/postgresql-dark.svg`} width={40}
                      height={40}
                      alt={'postgresql logo'}/>
-            </section>
-            <h5 className={'text-center m-5'}>️🛠 Other Tools</h5>
-            <section className={'flex gap-2 flex-wrap justify-center'}>
-              <Image src={'/icons/git.svg'} width={40} height={40}
-                     alt={'git logo'}/>
-              <Image src={`/icons/github-dark.svg`} width={40} height={40}
-                     alt={'github logo'}/>
-              <Image src={`/icons/netlify-dark.svg`} width={40}
-                     height={40}
-                     alt={'netlify logo'}/>
-              <Image src={`/icons/vercel-dark.svg`} width={40}
-                     height={40}
-                     alt={'vercel logo'}/>
-              <Image src={`/icons/npm-dark.svg`} width={40}
-                     height={40}
-                     alt={'npm logo'}/>
-              <Image src={'/icons/postman.svg'} width={40} height={40}
-                     alt={'postman logo'}/>
-              <Image src={`/icons/webstorm-dark.svg`} width={40}
-                     height={40}
-                     alt={'webstorm logo'}/>
-
-              <Image src={`/icons/vscode-dark.svg`} width={40}
-                     height={40}
-                     alt={'vscode logo'}/>
             </section>
           </div>
         </div>

@@ -6,7 +6,7 @@ const Home = () => {
   return (
       <section
           id="home"
-          className={'w-11/12 max-w-3xl text-center mx-auto h-screen pt-20 flex flex-col items-center justify-center gap-6'}>
+          className={'w-11/12 max-w-3xl text-center mx-auto h-screen pt-20 flex flex-col items-center justify-center gap-6 mb-50 '}>
         <Image
             src={'/profile-photo.jpg'}
             width={150}

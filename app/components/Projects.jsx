@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-      <section id={'projects'} className={'w-full px-[12%] py-10 scroll-mt-20 mt-30'}>
+      <section id={'projects'} className={'w-full px-[12%] py-10 scroll-mt-20 h-screen'}>
         <h4 className="text-center mb-2 text-lg">
           Projects
         </h4>
