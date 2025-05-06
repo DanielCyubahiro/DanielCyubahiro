@@ -67,7 +67,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#work" onClick={() => setIsSidebarOpen(false)}>
+            <a href="#projects" onClick={() => setIsSidebarOpen(false)}>
               My Work
             </a>
           </li>
