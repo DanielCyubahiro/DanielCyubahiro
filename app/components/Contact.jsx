@@ -82,7 +82,8 @@ const Contact = () => {
   return (
       <section
           id="contact"
-          className="w-full px-[12%] py-10 scroll-mt-2 h-min-screen">
+          className="w-full px-[12%] py-20 mb-40 scroll-mt-2 h-min-screen flex flex-col"
+      >
         <h2 className="text-center text-5xl mb-20">
           Contact
         </h2>
@@ -94,11 +95,11 @@ const Contact = () => {
                   className="shadow-lg"
               >
                 {isSuccess ? (
-                    <CheckCircle className="h-4 w-4" color={'#00ff11'} />
+                    <CheckCircle className="h-4 w-4" color={'#00ff11'}/>
                 ) : (
                     <AlertCircle className="h-4 w-4" color={'#ff0000'}/>
                 )}
-                <AlertTitle>{isSuccess ? 'Done!' : "Error"}</AlertTitle>
+                <AlertTitle>{isSuccess ? 'Done!' : 'Error'}</AlertTitle>
                 <AlertDescription>{message}</AlertDescription>
               </Alert>
             </div>
@@ -152,7 +153,6 @@ const Contact = () => {
                         <FormControl>
                           <Textarea
                               placeholder={'Enter your message'}
-                              rows={5}
                               {...field}/>
                         </FormControl>
                       </FormItem>
