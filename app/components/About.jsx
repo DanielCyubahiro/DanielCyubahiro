@@ -31,13 +31,13 @@ const About = () => {
                      alt={'html logo'}/>
               <Image src={'/icons/CSS.svg'} width={40} height={40}
                      alt={'css logo'}/>
-              <Image src={'/icons/Javascript.svg'} width={40} height={40}
+              <Image src={'/icons/JavaScript.svg'} width={40} height={40}
                      alt={'javascript logo'}/>
-              <Image src={'/icons/Typescript.svg'} width={40} height={40}
+              <Image src={'/icons/TypeScript.svg'} width={40} height={40}
                      alt={'typescript logo'}/>
               <Image src={`/icons/React-Dark.svg`} width={40} height={40}
                      alt={'react logo'}/>
-              <Image src={`/icons/Nextjs-Dark.svg`} width={40} height={40}
+              <Image src={`/icons/NextJS-Dark.svg`} width={40} height={40}
                      alt={'nextjs logo'}/>
               <Image src={`/icons/Vite-Dark.svg`} width={40} height={40}
                      alt={'vite logo'}/>
@@ -50,7 +50,7 @@ const About = () => {
             </section>
             <h5 className={'text-center m-5'}>⚙️ Backend</h5>
             <section className={'flex gap-2 flex-wrap justify-center'}>
-              <Image src={`/icons/Nodejs-Dark.svg`} width={40} height={40}
+              <Image src={`/icons/NodeJS-Dark.svg`} width={40} height={40}
                      alt={'nodejs logo'}/>
               <Image src={`/icons/PHP-Dark.svg`} width={40} height={40}
                      alt={'php logo'}/>
