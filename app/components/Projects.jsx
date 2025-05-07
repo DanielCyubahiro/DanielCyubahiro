@@ -1,3 +1,8 @@
+import {projects} from '@/lib/projects';
+import Image from 'next/image';
+import Link from 'next/link';
+import {Globe} from 'lucide-react';
+
 const Projects = () => {
   return (
       <section
@@ -11,6 +16,65 @@ const Projects = () => {
           <br/>
           Below is a collection of projects I've worked on so far...
         </p>
+        <div className={'grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'}>
+          {projects.map((project) => (
+              <div key={project.name} className={'group'}>
+                <div
+                    className={'relative overflow-hidden rounded-lg border shadow-xl transition-all duration-100 h-full'}
+                >
+                  <Image
+                      className={'object-cover h-48 w-full transform group-hover:scale-105 transition-transform duration-300'}
+                      src={project.image}
+                      alt={project.name}
+                      width={400}
+                      height={400}
+                  />
+                  <div className={'p-6'}>
+                    <div className={'flex justify-end gap-2'}>
+                      <Link
+                          href={project.links.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                      >
+                        <Image
+                            src={`/icons/Github-Dark.svg`}
+                            width={25}
+                            height={25}
+                            alt={'github logo'}
+                            className={'rounded-full'}
+                        />
+                      </Link>
+                      {project.links?.demo && (
+                          <Link
+                              href={project.links?.demo}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                          >
+                            <Globe/>
+                          </Link>
+                      )}
+                    </div>
+                    <h3 className={'text-xl'}>
+                      {project.name}
+                    </h3>
+                    <p className={'my-3 text-sm'}>
+                      {project.description}
+                    </p>
+                    <div className={'my-6 flex flex-wrap gap-2'}>
+                      {project.technologies.map((technology, index) => (
+                          <div
+                              key={index}
+                              className={'rounded-full border px-2.5 py-0.5 text-xs font-semibold bg-secondary border-none'}
+                          >
+                            {technology}
+                          </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+          ))}
+        </div>
       </section>
   );
 };
