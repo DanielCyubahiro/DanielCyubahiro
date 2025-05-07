@@ -27,13 +27,13 @@ const About = () => {
             <h4 className="text-center mb-2 text-2xl">Tech Stack</h4>
             <h5 className={'text-center m-5'}>🖥️ Frontend</h5>
             <section className={'flex gap-2 flex-wrap justify-center'}>
-              <Image src={'/icons/html.svg'} width={40} height={40}
+              <Image src={'/icons/HTML.svg'} width={40} height={40}
                      alt={'html logo'}/>
-              <Image src={'/icons/css.svg'} width={40} height={40}
+              <Image src={'/icons/CSS.svg'} width={40} height={40}
                      alt={'css logo'}/>
-              <Image src={'/icons/javascript.svg'} width={40} height={40}
+              <Image src={'/icons/Javascript.svg'} width={40} height={40}
                      alt={'javascript logo'}/>
-              <Image src={'/icons/typescript.svg'} width={40} height={40}
+              <Image src={'/icons/Typescript.svg'} width={40} height={40}
                      alt={'typescript logo'}/>
               <Image src={`/icons/react-dark.svg`} width={40} height={40}
                      alt={'react logo'}/>
