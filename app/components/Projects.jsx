@@ -2,7 +2,7 @@ const Projects = () => {
   return (
       <section
           id={'projects'}
-          className={'w-full px-[12%] py-10 scroll-mt-20 h-screen'}>
+          className={'snap-start w-full px-[12%] py-10 scroll-mt-20 h-screen'}>
         <h2 className={'text-center text-5xl'}>
           My Work
         </h2>

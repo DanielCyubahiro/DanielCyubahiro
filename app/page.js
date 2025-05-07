@@ -7,7 +7,7 @@ import Footer from '@/app/components/Footer';
 
 export default function Page() {
   return (
-      <main>
+      <main className="snap-y snap-mandatory overflow-scroll h-screen">
         <Navbar/>
         <Home/>
         <About/>

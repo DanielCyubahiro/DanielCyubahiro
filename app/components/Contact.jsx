@@ -83,7 +83,7 @@ const Contact = () => {
   return (
       <div
           id="contact"
-          className={'h-screen pt-20 flex flex-col'}
+          className={'h-screen pt-20 flex flex-col snap-start'}
       >
         <section
             className="w-full px-[12%] py-20 scroll-mt-2 flex flex-col grow"

@@ -4,8 +4,8 @@ const About = () => {
   return (
       <section
           id={'about'}
-          className={'w-full px-[12%]  h-screen flex flex-col items-center justify-center mb-20'}>
-        <h2 className="text-center text-5xl mb-20">
+          className={'snap-start scroll-mt-50 w-full px-[12%] h-screen flex flex-col items-center justify-center pb-50 md:scroll-mt-10 lg:pd-0 '}>
+        <h2 className="text-center text-5xl mb-10">
           About Me
         </h2>
         <div className="lg:flex justify-between gap-5">
