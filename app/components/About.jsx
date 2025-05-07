@@ -28,47 +28,47 @@ const About = () => {
             <h5 className={'text-center m-5'}>🖥️ Frontend</h5>
             <section className={'flex gap-2 flex-wrap justify-center'}>
               <Image src={'/icons/HTML.svg'} width={40} height={40}
-                     alt={'HTML logo'}/>
+                     alt={'html logo'}/>
               <Image src={'/icons/CSS.svg'} width={40} height={40}
                      alt={'css logo'}/>
               <Image src={'/icons/Javascript.svg'} width={40} height={40}
                      alt={'javascript logo'}/>
               <Image src={'/icons/Typescript.svg'} width={40} height={40}
                      alt={'typescript logo'}/>
-              <Image src={`/icons/react-dark.svg`} width={40} height={40}
+              <Image src={`/icons/React-Dark.svg`} width={40} height={40}
                      alt={'react logo'}/>
-              <Image src={`/icons/nextjs-dark.svg`} width={40} height={40}
+              <Image src={`/icons/Nextjs-Dark.svg`} width={40} height={40}
                      alt={'nextjs logo'}/>
-              <Image src={`/icons/vite-dark.svg`} width={40} height={40}
+              <Image src={`/icons/Vite-Dark.svg`} width={40} height={40}
                      alt={'vite logo'}/>
-              <Image src={'/icons/redux.svg'} width={40} height={40}
+              <Image src={'/icons/Redux.svg'} width={40} height={40}
                      alt={'redux logo'}/>
-              <Image src={`/icons/tailwindcss-dark.svg`} width={40}
+              <Image src={`/icons/TailwindCSS-Dark.svg`} width={40}
                      height={40} alt={'tailwindcss logo'}/>
-              <Image src={`/icons/materialui-dark.svg`} width={40}
-                     height={40} alt={'tailwindcss logo'}/>
+              <Image src={`/icons/MaterialUI-Dark.svg`} width={40}
+                     height={40} alt={'materialui logo'}/>
             </section>
             <h5 className={'text-center m-5'}>⚙️ Backend</h5>
             <section className={'flex gap-2 flex-wrap justify-center'}>
-              <Image src={`/icons/nodejs-dark.svg`} width={40} height={40}
+              <Image src={`/icons/Nodejs-Dark.svg`} width={40} height={40}
                      alt={'nodejs logo'}/>
-              <Image src={`/icons/php-dark.svg`} width={40} height={40}
+              <Image src={`/icons/PHP-Dark.svg`} width={40} height={40}
                      alt={'php logo'}/>
-              <Image src={`/icons/expressjs-dark.svg`} width={40}
+              <Image src={`/icons/ExpressJS-Dark.svg`} width={40}
                      height={40} alt={'expressjs logo'}/>
-              <Image src={`/icons/nestjs-dark.svg`} width={40} height={40}
+              <Image src={`/icons/NestJS-Dark.svg`} width={40} height={40}
                      alt={'nestjs logo'}/>
-              <Image src={`/icons/laravel-dark.svg`} width={40}
+              <Image src={`/icons/Laravel-Dark.svg`} width={40}
                      height={40}
                      alt={'laravel logo'}/>
             </section>
             <h5 className={'text-center m-5'}>🗄️️ Database</h5>
             <section className={'flex gap-2 flex-wrap justify-center'}>
-              <Image src={'/icons/mongodb.svg'} width={40} height={40}
+              <Image src={'/icons/MongoDB.svg'} width={40} height={40}
                      alt={'mongodb logo'}/>
-              <Image src={`/icons/mysql-dark.svg`} width={40} height={40}
+              <Image src={`/icons/MYSQL-Dark.svg`} width={40} height={40}
                      alt={'mysql logo'}/>
-              <Image src={`/icons/postgresql-dark.svg`} width={40}
+              <Image src={`/icons/PostgreSQL-Dark.svg`} width={40}
                      height={40}
                      alt={'postgresql logo'}/>
             </section>

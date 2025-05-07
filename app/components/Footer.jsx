@@ -13,7 +13,7 @@ const Footer = () => {
               rel="noopener noreferrer"
           >
             <Image
-                src={`/icons/github-dark.svg`}
+                src={`/icons/Github-Dark.svg`}
                 width={25}
                 height={25}
                 alt={'github logo'}
@@ -26,7 +26,7 @@ const Footer = () => {
               rel="noopener noreferrer"
           >
             <Image
-                src={`/icons/linkedin.svg`}
+                src={`/icons/Linkedin.svg`}
                 width={25}
                 height={25}
                 alt={'linkedin logo'}
