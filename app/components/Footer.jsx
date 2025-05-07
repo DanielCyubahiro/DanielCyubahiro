@@ -26,7 +26,7 @@ const Footer = () => {
               rel="noopener noreferrer"
           >
             <Image
-                src={`/icons/Linkedin.svg`}
+                src={`/icons/LinkedIn.svg`}
                 width={25}
                 height={25}
                 alt={'linkedin logo'}
