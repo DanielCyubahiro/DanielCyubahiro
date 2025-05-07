@@ -28,7 +28,7 @@ const About = () => {
             <h5 className={'text-center m-5'}>🖥️ Frontend</h5>
             <section className={'flex gap-2 flex-wrap justify-center'}>
               <Image src={'/icons/HTML.svg'} width={40} height={40}
-                     alt={'html logo'}/>
+                     alt={'HTML logo'}/>
               <Image src={'/icons/CSS.svg'} width={40} height={40}
                      alt={'css logo'}/>
               <Image src={'/icons/Javascript.svg'} width={40} height={40}
