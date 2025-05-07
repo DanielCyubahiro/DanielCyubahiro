@@ -1,6 +1,6 @@
 # Hey there! 👋 I'm Daniel ☕️
 
-Welcome to my GitHub! I'm a **Full-Stack Developer** who loves crafting scalable and well-documented applications. I have a strong focus on delivering high-quality features on time while ensuring code quality and performance. I enjoy collaborating with teams or taking full ownership of projects.
+Welcome to my GitHub! I'm a **Full-Stack Developer** who loves crafting scalable and well-documented applications. I have a strong focus on delivering high-quality features on time while ensuring code quality and 🌍. I enjoy collaborating with teams or taking full ownership of projects.
 
 ## 🔧 Tech Stack
 - **Frontend:** React.js, Next.js, Redux, Zustand, TailwindCSS
@@ -15,3 +15,4 @@ Welcome to my GitHub! I'm a **Full-Stack Developer** who loves crafting scalable
 
 ## 📫 Let's Connect
 - 💼 [LinkedIn](https://www.linkedin.com/in/daniel-prince-cyubahiro/)
+- 🌍 [Personal Website](https://daniel-cyubahiro.vercel.app/)
