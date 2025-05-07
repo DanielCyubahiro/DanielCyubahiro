@@ -66,7 +66,7 @@ const About = () => {
             <section className={'flex gap-2 flex-wrap justify-center'}>
               <Image src={'/icons/MongoDB.svg'} width={40} height={40}
                      alt={'mongodb logo'}/>
-              <Image src={`/icons/MYSQL-Dark.svg`} width={40} height={40}
+              <Image src={`/icons/MySQL-Dark.svg`} width={40} height={40}
                      alt={'mysql logo'}/>
               <Image src={`/icons/PostgreSQL-Dark.svg`} width={40}
                      height={40}
