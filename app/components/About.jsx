@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import TechIcon from '@/components/TechIcon';
 
 const About = () => {
   return (
@@ -27,50 +27,30 @@ const About = () => {
             <h4 className="text-center mb-2 text-2xl">Tech Stack</h4>
             <h5 className={'text-center m-5'}>🖥️ Frontend</h5>
             <section className={'flex gap-2 flex-wrap justify-center'}>
-              <Image src={'/icons/HTML.svg'} width={40} height={40}
-                     alt={'html logo'}/>
-              <Image src={'/icons/CSS.svg'} width={40} height={40}
-                     alt={'css logo'}/>
-              <Image src={'/icons/JavaScript.svg'} width={40} height={40}
-                     alt={'javascript logo'}/>
-              <Image src={'/icons/TypeScript.svg'} width={40} height={40}
-                     alt={'typescript logo'}/>
-              <Image src={`/icons/React-Dark.svg`} width={40} height={40}
-                     alt={'react logo'}/>
-              <Image src={`/icons/NextJS-Dark.svg`} width={40} height={40}
-                     alt={'nextjs logo'}/>
-              <Image src={`/icons/Vite-Dark.svg`} width={40} height={40}
-                     alt={'vite logo'}/>
-              <Image src={'/icons/Redux.svg'} width={40} height={40}
-                     alt={'redux logo'}/>
-              <Image src={`/icons/TailwindCSS-Dark.svg`} width={40}
-                     height={40} alt={'tailwindcss logo'}/>
-              <Image src={`/icons/MaterialUI-Dark.svg`} width={40}
-                     height={40} alt={'materialui logo'}/>
+              <TechIcon src={'/icons/HTML.svg'} alt={'html logo'}/>
+              <TechIcon src={'/icons/CSS.svg'} alt={'css logo'}/>
+              <TechIcon src={'/icons/JavaScript.svg'} alt={'javascript logo'}/>
+              <TechIcon src={'/icons/TypeScript.svg'} alt={'typescript logo'}/>
+              <TechIcon src={`/icons/React-Dark.svg`} alt={'react logo'}/>
+              <TechIcon src={`/icons/NextJS-Dark.svg`} alt={'nextjs logo'}/>
+              <TechIcon src={`/icons/Vite-Dark.svg`} alt={'vite logo'}/>
+              <TechIcon src={'/icons/Redux.svg'} alt={'redux logo'}/>
+              <TechIcon src={`/icons/TailwindCSS-Dark.svg`} alt={'tailwindcss logo'}/>
+              <TechIcon src={`/icons/MaterialUI-Dark.svg`} alt={'materialui logo'}/>
             </section>
             <h5 className={'text-center m-5'}>⚙️ Backend</h5>
             <section className={'flex gap-2 flex-wrap justify-center'}>
-              <Image src={`/icons/NodeJS-Dark.svg`} width={40} height={40}
-                     alt={'nodejs logo'}/>
-              <Image src={`/icons/PHP-Dark.svg`} width={40} height={40}
-                     alt={'php logo'}/>
-              <Image src={`/icons/ExpressJS-Dark.svg`} width={40}
-                     height={40} alt={'expressjs logo'}/>
-              <Image src={`/icons/NestJS-Dark.svg`} width={40} height={40}
-                     alt={'nestjs logo'}/>
-              <Image src={`/icons/Laravel-Dark.svg`} width={40}
-                     height={40}
-                     alt={'laravel logo'}/>
+              <TechIcon src={`/icons/NodeJS-Dark.svg`} alt={'nodejs logo'}/>
+              <TechIcon src={`/icons/PHP-Dark.svg`} alt={'php logo'}/>
+              <TechIcon src={`/icons/ExpressJS-Dark.svg`} alt={'expressjs logo'}/>
+              <TechIcon src={`/icons/NestJS-Dark.svg`} alt={'nestjs logo'}/>
+              <TechIcon src={`/icons/Laravel-Dark.svg`} alt={'laravel logo'}/>
             </section>
             <h5 className={'text-center m-5'}>🗄️️ Database</h5>
             <section className={'flex gap-2 flex-wrap justify-center'}>
-              <Image src={'/icons/MongoDB.svg'} width={40} height={40}
-                     alt={'mongodb logo'}/>
-              <Image src={`/icons/MySQL-Dark.svg`} width={40} height={40}
-                     alt={'mysql logo'}/>
-              <Image src={`/icons/PostgreSQL-Dark.svg`} width={40}
-                     height={40}
-                     alt={'postgresql logo'}/>
+              <TechIcon src={'/icons/MongoDB.svg'} alt={'mongodb logo'}/>
+              <TechIcon src={`/icons/MySQL-Dark.svg`} alt={'mysql logo'}/>
+              <TechIcon src={`/icons/PostgreSQL-Dark.svg`} alt={'postgresql logo'}/>
             </section>
           </div>
         </div>

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab7ef8f-dd50-4748-a072-6ed84f20df10" name="Changes" comment="Add padding on about page" />
+    <list default="true" id="dab7ef8f-dd50-4748-a072-6ed84f20df10" name="Changes" comment="Update the gridding">
+      <change afterPath="$PROJECT_DIR$/components/TechIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +124,7 @@
       <workItem from="1746083492023" duration="767000" />
       <workItem from="1746084548283" duration="25693000" />
       <workItem from="1746445093142" duration="45178000" />
-      <workItem from="1746690295463" duration="3086000" />
+      <workItem from="1746690295463" duration="4113000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial layout and navigation">
       <option name="closed" value="true" />
@@ -371,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746693354085</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Update the gridding">
+      <option name="closed" value="true" />
+      <created>1746693715340</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1746693715340</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +400,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add dark theme and side bar" />
     <MESSAGE value="Add outfit font" />
     <MESSAGE value="Update logo size" />
     <MESSAGE value="Add homepage" />
@@ -414,6 +424,7 @@
     <MESSAGE value="Fix overflow of grid + minor changes" />
     <MESSAGE value=".idea" />
     <MESSAGE value="Add padding on about page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add padding on about page" />
+    <MESSAGE value="Update the gridding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the gridding" />
   </component>
 </project>
