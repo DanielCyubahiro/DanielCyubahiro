@@ -28,7 +28,7 @@ const Projects = () => {
                       height={400}
                   />
                   <div className={'p-6'}>
-                    <div className={'flex justify-end gap-2'}>
+                    <div className={'flex justify-end gap-2 mb-5'}>
                       <Link
                           href={project.links.github}
                           target="_blank"

@@ -4,7 +4,7 @@ const About = () => {
   return (
       <section
           id={'about'}
-          className={'snap-start scroll-mt-20 w-full px-[12%] flex flex-col items-center justify-center pb-50 md:scroll-mt-10 lg:pd-0 '}>
+          className={'snap-start scroll-mt-20 w-full px-[12%] flex flex-col items-center justify-center pb-50 md:scroll-mt-40 lg:pd-0'}>
         <h2 className="text-center text-5xl mb-10">
           About Me
         </h2>
