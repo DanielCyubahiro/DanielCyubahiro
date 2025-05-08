@@ -18,7 +18,7 @@ const Projects = () => {
           {projects.map((project) => (
               <div key={project.name} className={'group'}>
                 <div
-                    className={'relative overflow-hidden rounded-lg border shadow-xl transition-all duration-100 h-full w-full'}
+                    className={'bg-card text-card-foreground relative overflow-hidden rounded-lg border shadow-2xl transition-all duration-100 h-full w-full'}
                 >
                   <Image
                       className={'object-cover h-48 w-full transform group-hover:scale-105 transition-transform duration-300'}

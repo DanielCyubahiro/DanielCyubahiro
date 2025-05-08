@@ -6,19 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dab7ef8f-dd50-4748-a072-6ed84f20df10" name="Changes" comment="Abstract tech icon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/theme/ThemeToggle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/theme/ThemeToggle.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/TechIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/TechIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/alert.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/ui/alert.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/ui/button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/dropdown-menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/ui/dropdown-menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/ui/form.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/ui/input.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/label.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/ui/label.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/textarea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/ui/textarea.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sections/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/sections/Projects.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

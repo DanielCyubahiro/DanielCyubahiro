@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Footer = () => {
   return (
       <footer
-          className={'hidden sm:flex flex-col items-center px-5 lg:px-8 xl:px-[8%] py-4 bottom-0 bg-secondary'}
+          className={'hidden sm:flex flex-col items-center px-5 lg:px-8 xl:px-[8%] py-4 bottom-0 bg-primary-foreground'}
       >
         <section className={'flex justify-center gap-2'}>
           <Link
