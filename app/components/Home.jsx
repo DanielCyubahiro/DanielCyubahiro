@@ -21,7 +21,7 @@ const Home = () => {
           A Full-Stack Web Developer based in Berlin.
         </h1>
         <p className={'max-w-2xl mx-auto'}>
-          For over 3 years, I've been designing and developing full-featured web
+          For over several years, I've been designing and developing full-featured web
           applications, robust APIs, and personalized websites for clients,
           delivering solutions on time while ensuring code quality and
           performance.

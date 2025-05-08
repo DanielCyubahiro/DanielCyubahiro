@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab7ef8f-dd50-4748-a072-6ed84f20df10" name="Changes" comment="Add projects section" />
+    <list default="true" id="dab7ef8f-dd50-4748-a072-6ed84f20df10" name="Changes" comment="Add projects grid">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Projects.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,35 +46,67 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "23.9.0",
-    "javascript.nodejs.core.library.typings.version": "22.13.10",
-    "last_opened_file_path": "/Users/daniel/web-bootcamp/youtube/DanielCyubahiro/public",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "/opt/homebrew/bin/npm",
-    "prettierjs.PrettierConfiguration.Package": "/opt/homebrew/lib/node_modules/prettier",
-    "settings.editor.selected.configurable": "editing.templates",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;23.9.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.15.12&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/daniel/web-bootcamp/youtube/DanielCyubahiro/lib&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;/opt/homebrew/bin/npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/opt/homebrew/lib/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/public/screenshots" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/components/theme" />
+      <recent name="$PROJECT_DIR$/public/icons" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/app/components/theme" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -88,6 +125,8 @@
       <updated>1746083490732</updated>
       <workItem from="1746083492023" duration="767000" />
       <workItem from="1746084548283" duration="25693000" />
+      <workItem from="1746445093142" duration="45178000" />
+      <workItem from="1746690295463" duration="1944000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial layout and navigation">
       <option name="closed" value="true" />
@@ -153,11 +192,182 @@
       <option name="project" value="LOCAL" />
       <updated>1746112758451</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add icons and tech stack">
+      <option name="closed" value="true" />
+      <created>1746461576317</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746461576317</updated>
+    </task>
+    <task id="LOCAL-00010" summary="remove photo from about me">
+      <option name="closed" value="true" />
+      <created>1746461738254</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746461738254</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add contact form">
+      <option name="closed" value="true" />
+      <created>1746526619146</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1746526619146</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update margin on contact form">
+      <option name="closed" value="true" />
+      <created>1746527762224</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1746527762224</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update nav bar for mobile">
+      <option name="closed" value="true" />
+      <created>1746527778037</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1746527778037</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add a footer">
+      <option name="closed" value="true" />
+      <created>1746532726297</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746532726297</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Remove light icons">
+      <option name="closed" value="true" />
+      <created>1746532953354</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1746532953354</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update navigation bar">
+      <option name="closed" value="true" />
+      <created>1746534823555</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1746534823555</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Update layout">
+      <option name="closed" value="true" />
+      <created>1746539488698</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1746539488698</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update layout">
+      <option name="closed" value="true" />
+      <created>1746543012976</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1746543012976</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Update navbar">
+      <option name="closed" value="true" />
+      <created>1746543123675</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1746543123675</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fix navbar styling">
+      <option name="closed" value="true" />
+      <created>1746543776198</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1746543776198</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Update images">
+      <option name="closed" value="true" />
+      <created>1746614421929</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1746614421929</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Update images">
+      <option name="closed" value="true" />
+      <created>1746614546585</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1746614546585</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Update broken images">
+      <option name="closed" value="true" />
+      <created>1746614790454</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1746614790454</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Update broken images">
+      <option name="closed" value="true" />
+      <created>1746614934672</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1746614934672</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Update broken images">
+      <option name="closed" value="true" />
+      <created>1746614964571</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1746614964571</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Update broken images">
+      <option name="closed" value="true" />
+      <created>1746614985662</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1746614985662</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Add projects data">
+      <option name="closed" value="true" />
+      <created>1746629608513</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1746629608513</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Add projects grid">
+      <option name="closed" value="true" />
+      <created>1746634171865</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1746634171865</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add initial layout and navigation" />
@@ -168,6 +378,21 @@
     <MESSAGE value="Add about me page" />
     <MESSAGE value="spaces" />
     <MESSAGE value="Add projects section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add projects section" />
+    <MESSAGE value="Add icons and tech stack" />
+    <MESSAGE value="remove photo from about me" />
+    <MESSAGE value="Add contact form" />
+    <MESSAGE value="Update margin on contact form" />
+    <MESSAGE value="Update nav bar for mobile" />
+    <MESSAGE value="Add a footer" />
+    <MESSAGE value="Remove light icons" />
+    <MESSAGE value="Update navigation bar" />
+    <MESSAGE value="Update layout" />
+    <MESSAGE value="Update navbar" />
+    <MESSAGE value="Fix navbar styling" />
+    <MESSAGE value="Update images" />
+    <MESSAGE value="Update broken images" />
+    <MESSAGE value="Add projects data" />
+    <MESSAGE value="Add projects grid" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add projects grid" />
   </component>
 </project>

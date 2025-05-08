@@ -7,20 +7,18 @@ const Projects = () => {
   return (
       <section
           id={'projects'}
-          className={'snap-start w-full px-[12%] py-10 scroll-mt-20 h-screen'}>
+          className={'w-full px-[12%] py-10 scroll-mt-20 snap-start'}>
         <h2 className={'text-center text-5xl'}>
           My Work
         </h2>
         <p className={'text-center max-w-2xl mx-auto mt-5 mb-12'}>
-          Welcome to my portfolio!
-          <br/>
-          Below is a collection of projects I've worked on so far...
+          Below is a collection of personal projects I've worked on so far...
         </p>
-        <div className={'grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'}>
+        <div className={'grid grid-cols-1 gap-8 lg:grid-cols-4'}>
           {projects.map((project) => (
               <div key={project.name} className={'group'}>
                 <div
-                    className={'relative overflow-hidden rounded-lg border shadow-xl transition-all duration-100 h-full'}
+                    className={'relative overflow-hidden rounded-lg border shadow-xl transition-all duration-100 h-full w-full'}
                 >
                   <Image
                       className={'object-cover h-48 w-full transform group-hover:scale-105 transition-transform duration-300'}
