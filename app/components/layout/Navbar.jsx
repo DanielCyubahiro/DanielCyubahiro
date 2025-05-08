@@ -86,7 +86,7 @@ const Navbar = () => {
                 rel="noopener noreferrer"
             >
               <Image
-                  src={`/icons/github-dark.svg`}
+                  src={`/icons/Github-Dark.svg`}
                   width={35}
                   height={35}
                   alt={'github logo'}
@@ -99,7 +99,7 @@ const Navbar = () => {
                 rel="noopener noreferrer"
             >
               <Image
-                  src={`/icons/linkedin.svg`}
+                  src={`/icons/LinkedIn.svg`}
                   width={35}
                   height={35}
                   alt={'linkedin logo'}
