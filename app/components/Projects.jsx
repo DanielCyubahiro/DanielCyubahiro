@@ -14,7 +14,7 @@ const Projects = () => {
         <p className={'text-center max-w-2xl mx-auto mt-5 mb-12'}>
           Below is a collection of personal projects I've worked on so far...
         </p>
-        <div className={'grid grid-cols-1 gap-8 lg:grid-cols-4'}>
+        <div className={'grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3'}>
           {projects.map((project) => (
               <div key={project.name} className={'group'}>
                 <div
