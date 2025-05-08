@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab7ef8f-dd50-4748-a072-6ed84f20df10" name="Changes" comment="Abstract tech icon">
+    <list default="true" id="dab7ef8f-dd50-4748-a072-6ed84f20df10" name="Changes" comment="Update broken icons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sections/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/sections/Projects.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -392,7 +390,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746694614283</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Update dark theme">
+      <option name="closed" value="true" />
+      <created>1746696216383</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1746696216383</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Update broken icons">
+      <option name="closed" value="true" />
+      <created>1746696469497</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1746696469497</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,8 +424,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update logo size" />
-    <MESSAGE value="Add homepage" />
     <MESSAGE value="Add about me page" />
     <MESSAGE value="spaces" />
     <MESSAGE value="Add projects section" />
@@ -435,6 +447,8 @@
     <MESSAGE value="Add padding on about page" />
     <MESSAGE value="Update the gridding" />
     <MESSAGE value="Abstract tech icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstract tech icon" />
+    <MESSAGE value="Update dark theme" />
+    <MESSAGE value="Update broken icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update broken icons" />
   </component>
 </project>
