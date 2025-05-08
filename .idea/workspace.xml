@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab7ef8f-dd50-4748-a072-6ed84f20df10" name="Changes" comment="Update the gridding">
-      <change afterPath="$PROJECT_DIR$/components/TechIcon.js" afterDir="false" />
+    <list default="true" id="dab7ef8f-dd50-4748-a072-6ed84f20df10" name="Changes" comment="Abstract tech icon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/theme/ThemeToggle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/theme/ThemeToggle.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TechIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/TechIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/alert.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/ui/alert.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/ui/button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/dropdown-menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/ui/dropdown-menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/ui/form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/ui/input.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/label.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/ui/label.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/textarea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/common/ui/textarea.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -73,10 +85,11 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/sections" />
+      <recent name="$PROJECT_DIR$/app/components/layout" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/app/components" />
       <recent name="$PROJECT_DIR$/public/icons" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/app/components/theme" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -124,7 +137,7 @@
       <workItem from="1746083492023" duration="767000" />
       <workItem from="1746084548283" duration="25693000" />
       <workItem from="1746445093142" duration="45178000" />
-      <workItem from="1746690295463" duration="4113000" />
+      <workItem from="1746690295463" duration="4786000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial layout and navigation">
       <option name="closed" value="true" />
@@ -382,7 +395,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746693715340</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Abstract tech icon">
+      <option name="closed" value="true" />
+      <created>1746694614283</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1746694614283</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +421,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add outfit font" />
     <MESSAGE value="Update logo size" />
     <MESSAGE value="Add homepage" />
     <MESSAGE value="Add about me page" />
@@ -425,6 +445,7 @@
     <MESSAGE value=".idea" />
     <MESSAGE value="Add padding on about page" />
     <MESSAGE value="Update the gridding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update the gridding" />
+    <MESSAGE value="Abstract tech icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract tech icon" />
   </component>
 </project>

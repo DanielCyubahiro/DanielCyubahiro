@@ -2,7 +2,7 @@
 import {AlignRight, ArrowUpRight, X} from 'lucide-react';
 import {Style_Script} from 'next/font/google';
 import {ThemeToggle} from '@/app/components/theme/ThemeToggle';
-import {Button} from '@/components/ui/button';
+import {Button} from '@/app/components/common/ui/button';
 import {useState} from 'react';
 import {cn} from '@/lib/utils';
 import Link from 'next/link';

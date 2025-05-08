@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import {Download} from 'lucide-react';
-import {Button} from '@/components/ui/button';
+import {Button} from '@/app/components/common/ui/button';
 
 const Home = () => {
   return (

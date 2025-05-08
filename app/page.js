@@ -1,9 +1,8 @@
-import Navbar from '@/app/components/Navbar';
-import Home from '@/app/components/Home';
-import About from '@/app/components/About';
-import Projects from '@/app/components/Projects';
-import Contact from '@/app/components/Contact';
-import Footer from '@/app/components/Footer';
+import Navbar from '@/app/components/layout/Navbar';
+import Home from '@/app/sections/Home';
+import About from '@/app/sections/About';
+import Projects from '@/app/sections/Projects';
+import Contact from '@/app/sections/Contact';
 
 export default function Page() {
   return (

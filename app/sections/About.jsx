@@ -1,4 +1,4 @@
-import TechIcon from '@/components/TechIcon';
+import TechIcon from '@/app/components/common/TechIcon';
 
 const About = () => {
   return (

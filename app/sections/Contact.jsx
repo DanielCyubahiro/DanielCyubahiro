@@ -3,8 +3,8 @@
 import {z} from 'zod';
 import {zodResolver} from '@hookform/resolvers/zod';
 import {useForm} from 'react-hook-form';
-import {Input} from '@/components/ui/input';
-import {Textarea} from '@/components/ui/textarea';
+import {Input} from '@/app/components/common/ui/input';
+import {Textarea} from '@/app/components/common/ui/textarea';
 import {
   Form,
   FormControl,
@@ -12,12 +12,12 @@ import {
   FormField,
   FormItem,
   FormLabel,
-} from '@/components/ui/form';
-import {Button} from '@/components/ui/button';
+} from '@/app/components/common/ui/form';
+import {Button} from '@/app/components/common/ui/button';
 import {useEffect, useState} from 'react';
-import {Alert, AlertDescription, AlertTitle} from '@/components/ui/alert';
+import {Alert, AlertDescription, AlertTitle} from '@/app/components/common/ui/alert';
 import {AlertCircle, CheckCircle} from 'lucide-react';
-import Footer from '@/app/components/Footer';
+import Footer from '@/app/components/layout/Footer';
 
 const formSchema = z.object({
   name: z.string().min(2).max(50),
