@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab7ef8f-dd50-4748-a072-6ed84f20df10" name="Changes" comment="Update broken icons">
+    <list default="true" id="dab7ef8f-dd50-4748-a072-6ed84f20df10" name="Changes" comment="Update resume">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,11 +72,11 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/app/sections" />
       <recent name="$PROJECT_DIR$/app/components/layout" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/app/components" />
-      <recent name="$PROJECT_DIR$/public/icons" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -125,6 +125,9 @@
       <workItem from="1746084548283" duration="25693000" />
       <workItem from="1746445093142" duration="45178000" />
       <workItem from="1746690295463" duration="4786000" />
+      <workItem from="1746778742476" duration="27000" />
+      <workItem from="1746796168989" duration="639000" />
+      <workItem from="1747140884218" duration="3609000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial layout and navigation">
       <option name="closed" value="true" />
@@ -406,7 +409,39 @@
       <option name="project" value="LOCAL" />
       <updated>1746696469497</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Update projects">
+      <option name="closed" value="true" />
+      <created>1746697131211</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1746697131211</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Add tailwind on personal wbsite">
+      <option name="closed" value="true" />
+      <created>1746774902648</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1746774902648</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Update resume">
+      <option name="closed" value="true" />
+      <created>1747141013280</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1747141013280</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Update resume">
+      <option name="closed" value="true" />
+      <created>1747208768671</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1747208768671</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,9 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add about me page" />
-    <MESSAGE value="spaces" />
-    <MESSAGE value="Add projects section" />
     <MESSAGE value="Add icons and tech stack" />
     <MESSAGE value="remove photo from about me" />
     <MESSAGE value="Add contact form" />
@@ -449,6 +481,9 @@
     <MESSAGE value="Abstract tech icon" />
     <MESSAGE value="Update dark theme" />
     <MESSAGE value="Update broken icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update broken icons" />
+    <MESSAGE value="Update projects" />
+    <MESSAGE value="Add tailwind on personal wbsite" />
+    <MESSAGE value="Update resume" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update resume" />
   </component>
 </project>
