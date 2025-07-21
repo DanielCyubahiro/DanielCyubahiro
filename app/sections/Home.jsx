@@ -26,7 +26,7 @@ const Home = () => {
           delivering solutions on time while ensuring code quality and
           performance.
         </p>
-        <a href={'/DanielCyubahiroResume.pdf'} download>
+        <a href={'/DanielPrinceCyubahiroResume.pdf'} download>
           <Button
               variant={'ghost'}
               className={'bg-primary text-primary-foreground px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 cursor-pointer'}

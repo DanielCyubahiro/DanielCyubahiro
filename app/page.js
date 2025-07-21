@@ -6,7 +6,7 @@ import Contact from '@/app/sections/Contact';
 
 export default function Page() {
   return (
-      <main className="snap-y snap-mandatory overflow-scroll h-screen">
+      <main className="snap-y overflow-scroll h-screen">
         <Navbar/>
         <Home/>
         <About/>
